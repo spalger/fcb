@@ -4,5 +4,6 @@ module.exports = function fromCallback(useCallback) {
       if (error) reject(error);
       else resolve(value);
     }
+    useCallback(callback);
   });
 }
