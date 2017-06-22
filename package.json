@@ -3,5 +3,12 @@
   "version": "0.1.0",
   "main": "index.js",
   "author": "spalger <spalger@users.noreply.github.com>",
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^3.4.2"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
 }
